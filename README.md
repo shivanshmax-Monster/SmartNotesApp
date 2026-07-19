@@ -21,13 +21,11 @@ There are two ways to use this application: installing the pre-built APK directl
 
 ### Option 1: Install Direct APK (Quickest)
 
-You can download the production-ready Android APK directly from our verified Expo Cloud Build servers:
+You can download the production-ready Android APK directly from this repository:
 
-👉 **[Download SmartNotesApp.apk Here](https://expo.dev/accounts/shivaboi/projects/SmartNotesApp/builds/c7261671-6795-4e2c-b0fc-23f75b51594e)** 👈
-
-1. Click the link above to go to the Expo Dashboard.
-2. Click the **Download** button to get the `.apk` file.
-3. Transfer the file to your Android phone (or download it directly on your phone's browser).
+1. Click on the `SmartNotesApp.apk` file in the root of this GitHub repository.
+2. Click the **Download raw file** button (or the download icon).
+3. Transfer the file to your Android phone (or download it directly from your phone's browser).
 4. Tap the downloaded file to install it (you may need to allow "Install from Unknown Sources" in your phone's settings).
 
 ### Option 2: Run from Source Code
