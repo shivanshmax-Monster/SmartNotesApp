@@ -13,47 +13,58 @@ SmartNotesApp allows users to securely register, log in, and manage their person
 - **Cross-Platform**: Built to run flawlessly on both Android and iOS.
 - **Offline Capable**: Firebase SDK handles local caching when the network is unstable.
 
-## 📥 Download the App (APK)
+---
+
+## 🛠️ Installation Instructions
+
+There are two ways to use this application: installing the pre-built APK directly onto your phone, or running it from the source code locally.
+
+### Option 1: Install Direct APK (Quickest)
 
 You can download the production-ready Android APK directly from our verified Expo Cloud Build servers:
 
 👉 **[Download SmartNotesApp.apk Here](https://expo.dev/accounts/shivaboi/projects/SmartNotesApp/builds/c7261671-6795-4e2c-b0fc-23f75b51594e)** 👈
 
-*(Click the link above, and press the **Download** button on the Expo dashboard page).*
+1. Click the link above to go to the Expo Dashboard.
+2. Click the **Download** button to get the `.apk` file.
+3. Transfer the file to your Android phone (or download it directly on your phone's browser).
+4. Tap the downloaded file to install it (you may need to allow "Install from Unknown Sources" in your phone's settings).
 
-## 🚀 Local Development
+### Option 2: Run from Source Code
 
-To run this project locally on your own machine:
+To run this project locally on your own machine for development or testing:
 
-### 1. Prerequisites
+**1. Prerequisites**
 - Node.js (v18+)
 - Android Studio (for emulator) or Expo Go (on your physical device)
 
-### 2. Install Dependencies
+**2. Install Dependencies**
+Clone this repository and run:
 ```bash
 npm install
 ```
 
-### 3. Setup Firebase
+**3. Setup Firebase Backend**
 You will need your own Firebase project to run the backend.
 1. Create a project at [Firebase Console](https://console.firebase.google.com/)
 2. Enable **Authentication** (Email/Password)
 3. Enable **Firestore Database** (Start in test mode or configure security rules)
-4. Update the `src/firebaseConfig.js` file with your project's credentials.
+4. Update the `src/firebaseConfig.js` file with your specific project's credentials.
 
-### 4. Start the App
+**4. Start the Application**
 ```bash
 npx expo start
 ```
-- Press `a` to open on an Android emulator.
-- Or scan the QR code using the Expo Go app on your phone.
+- Press `a` in your terminal to open it on a connected Android emulator.
+- Or scan the QR code using the **Expo Go** app on your physical smartphone.
 
-## 🛠️ Tech Stack
+---
+
+## 💻 Tech Stack
 - **Framework**: React Native (Expo SDK 51)
 - **Routing**: Expo Router (File-based navigation)
 - **Backend**: Firebase (Auth & Firestore)
 - **Styling & Animations**: Vanilla React Native StyleSheet + Reanimated 3
 - **Icons**: Lucide React Native
 
----
 *Developed for Android and iOS.*
